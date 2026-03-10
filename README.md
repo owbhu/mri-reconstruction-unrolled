@@ -1,4 +1,4 @@
-# Physics-Guided MRI Reconstruction
+# Compressed Sensing MRI Reconstruction
 
 From zero-filled baselines to learned unrolled networks — a complete, research-quality implementation of compressed sensing and physics-guided deep learning for MRI reconstruction.
 
@@ -28,7 +28,7 @@ mri-reconstruction-unrolled
 │   ├── 02_ista_recon.ipynb         # Wavelet-regularized ISTA & FISTA
 │   ├── 03_unrolled_recon.ipynb     # Unrolled ISTA with learned CNN proximal ops
 │   ├── 04_analysis.ipynb           # Monte Carlo eval, noise robustness, ablations
-├── src/                        # Reusable research library
+├── src/
 │   ├── masks.py                # Cartesian undersampling masks
 │   ├── fft_ops.py              # MRI forward model (NumPy + PyTorch)
 │   ├── metrics.py              # PSNR, SSIM, NMSE
